@@ -1,0 +1,7 @@
+.idea
+src/.ipynb_checkpoints
+data/input/*
+data/output/*
+res/
+!data/input/README.md
+!data/output/README.md
