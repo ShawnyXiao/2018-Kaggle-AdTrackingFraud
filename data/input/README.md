@@ -1,6 +1,6 @@
-# 输入数据
+# Input data
 
-由于文件太大，因此无法上传到 Github 上，若需要相关数据，可以发 issue 联系我。该目录结构如下：
+Because of the files of input are too large, it can't be uploaded to Github. If you need them, you can contact with me. The directory structure is as follows:
 
 ```
 input
