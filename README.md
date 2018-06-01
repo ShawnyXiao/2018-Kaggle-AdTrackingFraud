@@ -3,7 +3,9 @@
 - [English document](README.md)
 - [中文文档](README-zh.md)
 
-The journey of this competition is quite interesting for me. It should be perhaps the one which competition I spend the least time on. It was on April 25th that I discovered this competition. Then I casually downloaded the submission in other's kernel and submitted it. At that time, I was ranked over 300th+, then I put it down. When I continued doing it, it is May 2nd and I was ranked over 1100+. From May 2nd to May 7th, I only spent about **6 days** in this competition (there are other jobs I have to finish during this period, so it is not a full-time job on this competition). Luckily, I got a **silver medal** finally. The figure below is the ranking change during my competition.
+[TalkingData AdTracking Fraud Detection Challenge](https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection) is a data mining competition conducted by TalkingData at Kaggle. Finally, I got a **silver medal** in a **solo** job.
+
+The journey of this competition is quite interesting for me. It should be perhaps the one which competition I spend the least time on. It was on April 25th that I discovered this competition. Then I casually downloaded the submission in other's kernel and submitted it. At that time, I was ranked over 300th+, then I put it down. When I continued doing it, it is May 2nd and I was ranked over 1100th+. From May 2nd to May 7th, I only spent about **6 days** in this competition (there are other jobs I have to finish during this period, so it is not a full-time job on this competition). Luckily, I got a silver medal finally. The figure below is the ranking change during my competition.
 
 ![rank](pic/rank.png)
 
@@ -20,13 +22,13 @@ The data provided by the organizers is about 10G, with more than 100 million sam
 
 ## Feature construction
 
-The feature construction is particularly critical for improving the effects of results. Feature construction can be decomposed into two questions: **what dataset to be used in construct features on**; **what features to be constructed**.
+The feature construction is particularly critical for improving the effects of results. Feature construction can be decomposed into two questions: **what dataset to be used in construct features on** and **what features to be constructed**.
 
-### What dataset to be used in construct features on
+### 1. What dataset to be used in construct features on
 
 At beginning, I used the `train+test` dataset to construct features, get 0.9800 on public LB, in the bronze medal position. Later I tried to use the `train+test_supplement` dataset to construct features and scores went up directly, get **0.9813 on public LB**, in the **silver medal** position! Therefore, from this phenomenon we can notice that the bias of the model trained from the `train+test` is much larger than the `train+test_supplement`.
 
-### What features to be constructed
+### 2. What features to be constructed
 
 1. Group by `[ip, app, channel, device, os]`, calculate next time delta
 2. Group by `[ip, os, device]`, calculate next time delta
@@ -50,4 +52,4 @@ At beginning, I used the `train+test` dataset to construct features, get 0.9800 
 
 ## Hey!
 
-If you have any ideas, such as finding bugs in a certain place, thinking that I am incorrect or impenetrable about a method or having more creative ideas, please feel free to send an issue, pull request or discuss it directly with me! In addition, if you can star or fork this project to motivate me who has just entered the field of data mining, I will be grateful ~
+If you have any ideas, such as finding bugs in a certain place, thinking that I am incorrect or impenetrable about a method or having more creative ideas, please feel free to send an issue, pull request or discuss it directly with me! In addition, if you can star or fork this project to motivate me who has just entered the field of data mining, I will be grateful~
