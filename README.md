@@ -1,7 +1,7 @@
 # 2018-Kaggle-AdTrackingFraud
 
 - [English document](README.md)
-- [中文文档](README-zh.md)
+- [中文文档](README-ZH.md)
 
 [TalkingData AdTracking Fraud Detection Challenge](https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection) is a data mining competition conducted by TalkingData at Kaggle. Finally, I got a **silver medal** in a **solo** job.
 
