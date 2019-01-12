@@ -1,7 +1,7 @@
 # 2018-Kaggle-AdTrackingFraud
 
 - [English document](README.md)
-- [中文文档](README-zh.md)
+- [中文文档](README-ZH.md)
 
 [TalkingData AdTracking Fraud Detection Challenge](https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection) 是 TalkingData 在 Kaggle 上举办的一个数据挖掘比赛。最终取得的成绩是 **Solo 银牌**。
 
